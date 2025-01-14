@@ -45,7 +45,7 @@ export default function Home() {
   const handleClick = async () => {
     setLoading(true); // Start loading
     try {
-      const response = await fetch("http://localhost:5000/api/payload", {
+      const response = await fetch("http://16.171.110.155:5000/api/payload", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
