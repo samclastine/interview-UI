@@ -34,19 +34,24 @@
                 resize: none;
 
                 h2{
-                    height: 2%;
+                    height: 5vh;
                     margin-bottom: 25;
                 }
                 .script{
                     border-radius: 8;
                     padding: 10;
-                    height: 55vh;
+                    height: 60vh;
                     width: 95%;
                     resize: none;
                     overflow-y: scroll;
                     font-size: 14;
                     box-sizing: border-box;
                     background-color: #302F2F;
+                    -webkit-border-radius: 7px;
+                    -webkit-padding-start: 10;
+                    -webkit-padding-end: 10;
+                    -webkit-padding-before: 10;
+                    -webkit-padding-after: 10;
                 }
             }
             .sectionLeftSecond{
