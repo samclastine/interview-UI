@@ -1,0 +1,93 @@
+.parentContainer{
+    width: 100%;
+    height: 100vh;
+}
+.pageHero{
+    width: 100%;
+    height: 100vh;
+    .title{
+        height: 10vh;
+        font-size: 30px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .parentDiv{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        .childLeft{
+            width: 50%;
+            height: 90vh;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            .sectionLeftFirst{
+                width: 100%;
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                box-sizing: border-box;
+                resize: none;
+
+                h2{
+                    height: 2%;
+                    margin-bottom: 25;
+                }
+                .script{
+                    border-radius: 8;
+                    padding: 10;
+                    height: 55vh;
+                    width: 95%;
+                    resize: none;
+                    overflow-y: scroll;
+                    font-size: 14;
+                    box-sizing: border-box;
+                    background-color: #302F2F;
+                }
+            }
+            .sectionLeftSecond{
+                width: 100%;
+                height: 30vh;
+                align-self: flex-start;
+                padding-top: 20px;
+            }
+
+
+        }
+        .childRight{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .sectionRightFirst{
+                width: 100%;
+                height: 40%;
+            }
+            .sectionRightSecond{
+                width: 100%;
+                height: 30%;
+            }
+            .sectionRightThird{
+                width: 100%;
+                height: 30%;
+            }
+
+
+        }
+
+    }
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

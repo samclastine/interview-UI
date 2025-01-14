@@ -1,0 +1,28 @@
+.sectionPage {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+  }
+  .parentContainer{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100;
+
+  }
+
+.textArea{
+    top: 100;
+    position: relative;
+    width:80%;
+    height: 100% !important;
+    align-self: center;
+}
+.button{
+    width: 10%;
+    align-self: center;
+}
