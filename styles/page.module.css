@@ -3,26 +3,28 @@
     height: 100vh;
     justify-content: center;
     display: flex;
+    align-items: center;
   }
   .parentContainer{
     width: 100%;
-    height: 100%;
+    height: 80%;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100;
 
   }
 
 .textArea{
-    top: 100;
-    position: relative;
-    width:80%;
-    height: 100% !important;
+    width:90%;
+    height: 70%;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .button{
     width: 10%;
+    height: 10%;
     align-self: center;
 }
